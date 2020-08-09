@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>anheuser busch</title>
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="main-contact-header-background">
+		<header class="main-header">
+			<div class="main-header-inner">
+				<div class="main-header-logo-wrapper">
+					<a href="index.html" target="_self">
+						<img class="main-header-logo" src="images/Logolabel.png" alt="Logo">
+					</a>
+				</div>
+
+				<div class="main-header-right">
+					<div id="search" class="main-header-search">
+						<form id="searchForm">
+							<h2 class="hidden">Main header search</h2>
+							<label for="search-input" class="hidden">Search</label>
+							<input id="search-input" type="text" name="search" placeholder="Search...">
+						</form>
+					</div>
+
+					<nav class="main-header-nav-wrapper nav">
+						<ul class="main-header-nav">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="products.html">product</a></li>
+							<li><a href="advertisement.html">Advertisements</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="main-page-section">
+			<div class="main-page-title">
+				<h1>Contact</h1>
+			</div>
+			<div class="about-page-header-subtitle">
+				<h3>Brewing is our life, beer is our water so don’t waste time drinking</h3>
+			</div>
+		</section>
+	</div>
+	<section>
+		<div class="main-contact-footer">
+		<div class="main-contact-title">
+			<h1 class="main-contact-subtitle"> Contact us Anytime!</h1>
+		</div>
+
+		<form id="contactForm" action="form.php" method="post">
+			<label for="name">Name: (required)</label>
+			<input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+
+			<label for="email">Email: (will not be published)</label>
+			<input type="email" required id="email" size="30" placeholder="Enter your Email">
+
+
+			<label for="phone">Phone: (required)</label>
+			<input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+
+			<label for="comments">Comments:</label>
+			<textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+
+			<input id="submit" type="submit" value="Submit">
+		</form>
+
+		<div class="main-contact-product">
+			<img  class="main-contact-product-six" src="images/promo-image6.jpg" alt="product6">
+		</div>
+	</div>
+	</section>
+	<footer id="main-footer" class="main-footer-adv">
+		<div class="main-footer-inner">
+			<h2 class="hidden">Footer Navigation</h2>
+
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="products.html">Product</a></li>
+					<li><a href="advertisement.html">Advertisments</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
