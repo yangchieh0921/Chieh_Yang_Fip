@@ -1,0 +1,466 @@
+body {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.main-background {
+  background-image: url('../images/BottleBackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-header {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.main-header-inner {
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 992px;
+}
+
+.main-header-search {
+  text-align: right;
+
+}
+
+.main-header-logo-wrapper a {
+  display: inline-block;
+}
+
+.main-header-logo {
+  display: block;
+  width: 240px;
+  height: auto;
+}
+
+.main-header-nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.main-header-nav li:last-child {
+  margin-right: 0;
+}
+
+.nav li a {
+  display: inline-block;
+  color: black;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: red;
+
+  text-decoration: underline;
+  transform: scale(1.125);
+}
+
+.nav li a:focus {
+  color: red;
+  text-decoration: underline;
+  transform: scale(1.125);
+}
+
+.main-page-title {
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 992px;
+}
+
+h1 {
+  max-width: 400px;
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.125;
+  text-transform: uppercase;
+}
+
+.btn {
+  margin-top: 1.5rem;
+  padding: .75rem 1.5rem;
+  display: inline-block;
+  color: white;
+  font-size: 1.125rem;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 30px;
+  transition: all .3s ease;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.btn:focus {
+  color: black;
+  background-color: white;
+}
+
+.main-footer {
+  max-width: 100%;
+}
+
+.main-footer-inner {
+  margin: 0 auto;
+  width: 992px;
+}
+
+.main-footer-inner ul {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.main-footer-inner ul li {
+  margin: 0 7.5px;
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-about-header-background {
+  background-image: url('../images/about-header-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+
+.about-page-section {
+
+}
+
+.about-page-header-subtitle {
+  max-width: 400px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.125;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 992px;
+}
+
+.about-page-promo-image {
+  padding-top: 60px;
+  margin: 0 auto;
+}
+
+.main-beer-company-image {
+  height: 400px;
+  width: 600px;
+}
+
+.promo-beer-company-title {
+  width: 600px;
+  padding: 80px;
+  margin: 0 auto;
+  line-height: 1.125;
+}
+
+.main-beer-company-text {
+  margin-top: 50px;
+}
+
+.main-promo-beer-images{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.about-page-best-beer-image {
+  width: 600px;
+  padding: 50px 50px;
+}
+
+.about-page-promo-images {
+  width: 600px;
+}
+
+.main-best-beer-image {
+  height: 400px;
+  width: 600px;
+}
+
+
+.main-products-header-background {
+  background-image: url('../images/products-header-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+
+.product-subtitle {
+  padding:50px;
+
+}
+
+.page-main-product {
+  width: 300px;
+  height: 400px;
+}
+
+.main-product-image-first {
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.main-products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 980px;
+
+}
+
+.page-main-product-second {
+  width: 300px;
+  height: 400px;
+}
+
+.toggle-bottle-info {
+  margin-top: 1.5rem;
+  padding: .75rem 1.5rem;
+  display: inline-block;
+  color: white;
+  font-size: 1.125rem;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 30px;
+  transition: all .3s ease;
+}
+
+.info-wrapper {
+  border: solid;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 0 auto;
+  text-align: center;
+  height: 300px;
+  width: 700px;
+}
+
+
+
+
+
+.main-advertisement-header-background {
+  background-image: url('../images/adv-header-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-promo-beer-image {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+
+.main-promo-title {
+  margin: 0 auto;
+  margin-top: 150px;
+  font-size: 60px;
+}
+
+.main-promo-image-left {
+  margin-left: 100px;
+}
+
+.main-promo-title {
+  margin-top: 50px;
+  font-size: 60px;
+}
+
+.main-div-promo-title {
+  margin-top: 25px;
+  font-size: 40px;
+  color: #ebc474;
+  margin-left: 50px;
+}
+
+.main-promo-text {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-left: 80px;
+}
+
+.main-promo-image-one {
+  width: 400px;
+}
+
+.main-footer-adv {
+  max-width: 100%;
+  padding: 100px;
+  margin-left: 50px;
+
+}
+
+.main-contact-header-background {
+  background-image: url('../images/contact-header-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+
+#contactForm {
+  margin-top: 30px;
+  margin-left: 250px;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+}
+
+
+input, textarea  {
+  font-size: 11px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  background-color: #efefef;
+  display: block;
+  border: 1px solid #999;
+  color: #333;
+}
+
+#comments {
+  width: 360px;
+  height: 200px;
+}
+
+#submit {
+  display: block;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+  margin-top: 30px;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #2073a8;
+  font-size: 14px;
+  border: 1px solid #003471;
+}
+
+.main-contact-subtitle {
+  color: black;
+}
+
+.main-contact-title {
+  margin: 0 auto;
+  padding: 50px;
+  margin-left: 200px;
+  width: 980px;
+}
+
+.main-contact-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-contact-product-six {
+  width: 500px;
+  height: 400px;
+}
+
+.main-contact-product {
+  padding: 120px;
+}
+
+
+@media (max-width: 480px) {
+	.main-header-inner {
+		display: block;
+		width: 100%;
+	}
+
+	.main-header-logo-wrapper {
+		text-align: center;
+	}
+
+	.main-header-right {
+		text-align: center;
+	}
+
+	.main-header-search {
+		text-align: center;
+	}
+
+	.main-header-nav li {
+		display: block;
+	}
+}
+
+.info-section img{
+	width: 200px;
+}
+
+.main-footer-inner {
+  width: 100%;
+}
+
+.main-beer-company-image {
+  width: 100%;
+}
+
+.main-footer-inner ul {
+  display: block;
+}
+
+.main-best-beer-image {
+  width: 100%;
+}
+
+.main-page-title {
+  text-align:  center;
+}
+
+.main-products {
+  display: block;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-wrapper {
+  width: 100%;
+}
+
+.main-beer-company-image {
+  width: 480px
+}
