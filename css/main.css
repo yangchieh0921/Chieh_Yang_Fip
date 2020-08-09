@@ -168,7 +168,6 @@ h1 {
 
 .about-page-promo-image {
   padding-top: 60px;
-  padding-left: 30px;
   margin: 0 auto;
 }
 
@@ -429,4 +428,39 @@ input, textarea  {
 
 .info-section img{
 	width: 200px;
+}
+
+.main-footer-inner {
+  width: 100%;
+}
+
+.main-beer-company-image {
+  width: 100%;
+}
+
+.main-footer-inner ul {
+  display: block;
+}
+
+.main-best-beer-image {
+  width: 100%;
+}
+
+.main-page-title {
+  text-align:  center;
+}
+
+.main-products {
+  display: block;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-wrapper {
+  width: 100%;
+}
+
+.main-beer-company-image {
+  width: 480px
 }
